@@ -1,0 +1,33 @@
+name: healthcare2
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add your assets under the flutter section
+  assets:
+    - assets/cpr.png
+    - assets/bleeding.png
+    - assets/burns.png
+    - assets/choking.png
+    - assets/fainting.png
+    - assets/fractures.png
+    - assets/poisoning.png
+    - assets/heat_stroke.png
+    - assets/hypothermia.png
